@@ -1,0 +1,58 @@
+.customer__section{
+  padding: 150px;
+  background-color: lightpink;
+}
+
+.customer__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.customer__list{
+  display: flex;
+  gap: 30px;
+}
+
+.customer__item{
+  border: 1px solid #ffffff;
+  border-radius: 20px;
+  padding: 30px;
+  background-color: #ffffff;
+  margin-top: 50px;
+}
+
+.customer__title{
+  max-width: 560px;
+  font-family: Outfit;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+}
+
+.customer__star-img{
+  margin-bottom: 26px;
+}
+
+.customer__text{
+  max-width: 350px;
+  margin-bottom: 30px;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.person__content{
+  display: flex;
+  align-items: center;
+}
+
+.person__title{
+  padding: 10px;
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+}

@@ -1,0 +1,44 @@
+.site__footer{
+  padding: 100px;
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__list{
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.footer__link{
+  color: #241415;
+
+  &:hover{
+    color: #F54749;
+  }
+}
+
+.footer__icon-wrapper{
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer__last-text-title{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.footer__text{
+  font-family: Outfit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}

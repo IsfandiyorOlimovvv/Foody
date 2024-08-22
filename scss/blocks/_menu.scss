@@ -1,0 +1,71 @@
+.menu__section{
+  padding: 60px;
+}
+
+.menu__title{
+  font-family: Outfit;
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+  text-align: center;
+}
+
+.menu__text{
+  font-family: Outfit;
+  margin-bottom: 50px;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+}
+
+.menu__content-title-text{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.menu__list{
+  display: flex;
+  gap: 30px;
+}
+
+.menu__content-wrapper-second{
+  margin-top: 30px;
+}
+
+.menu__content-title{
+  font-family: Poppins;
+  $MB:10px;
+  $FS:18px;
+  $FW:700;
+  $LH:27px;
+  text-align: left;
+}
+
+.menu__img{
+  margin-bottom: 16px;
+}
+
+.menu__btn{
+  width: 230px;
+  height: 50px;
+  font-family: Outfit;
+  $FS: 16px;
+  $FW: 400;
+  $LH: 20.16px;
+  text-align: center;
+  border-radius: 20px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #F54749;
+  cursor: pointer;
+
+  &:hover{
+    color: #F54749;
+    background-color: #FFFFFF;
+    border: 1px solid #F54749;
+  }
+}

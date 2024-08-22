@@ -1,0 +1,49 @@
+.site__header{
+  padding: 20px;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar__list{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.navbar__link{
+  color:#241415;
+
+  &:hover{
+    color: #F54749;
+  }
+}
+
+.header__img-btn-section{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header__btn{
+  width: 129px;
+  height: 56px;
+  padding: 13px 20px 13px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Outfit;
+  $FS: 16px;
+  $FW: 400;
+  $LH: 20.16px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
+  gap: 10px;
+  color: #FFFFFF;
+  background-color: #F54749;
+}

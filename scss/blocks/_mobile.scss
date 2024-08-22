@@ -1,0 +1,27 @@
+.mobile__section{
+  padding: 80px;
+}
+
+.mobile{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mobile__content-title{
+  max-width: 473px;
+  font-family: Outfit;
+  margin-bottom: 16px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50.4px;
+}
+
+.mobile__content-text{
+  max-width: 473px;
+  margin-bottom: 50px;
+  font-family: Outfit;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
